@@ -10,7 +10,7 @@
 
 ## Secciones del Portfolio  
 
-**Inicio** – Presentación con mi foto, nombre y una breve introducción.  
+**Inicio** – Presentación personal con mi foto.  
 **Sobre mí** – Habilidades y herramientas con un diseño interactivo.  
 **Proyectos** – Galería de trabajos con detalles, tecnologías usadas y enlaces.  
 **Contacto** – Formulario dinámico y enlaces a mis redes sociales.  
