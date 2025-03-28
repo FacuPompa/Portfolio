@@ -5,19 +5,19 @@ import { motion } from "framer-motion";
 const skills = [
   { name: "Html5", image: "/html5.png" },
   { name: "Css3", image: "/css.png" },
-  { name: "JavaScript", image: "/js.png" },
-  { name: "Bootstrap", image: "/bootstrap.png" },
-  { name: "Tailwind CSS", image: "/tailwind.png" },
   { name: "Sass", image: "/sass.png" },
+  { name: "Tailwind CSS", image: "/tailwind.png" },
+  { name: "JavaScript", image: "/js.png" },
+  { name: "Git", image: "/git.png" },
   { name: "NodeJS", image: "/node.png" },
+  { name: "NextJS", image: "/next.png" },
   { name: "React", image: "/react.png" },
   { name: "Firebase", image: "/firebase.png" },
-  { name: "Git", image: "/git.png" },
-  { name: "GitHub", image: "/github.png" },
   { name: "MongoDB", image: "/mongo.png" },
   { name: "C", image: "/c.png" },
   { name: "Python", image: "/python.png" },
   { name: "Golang", image: "/go.png" },
+  { name: "Java", image: "/java.png" },
 ];
 
 export default function SobreMi() {
