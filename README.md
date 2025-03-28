@@ -1,6 +1,6 @@
 # Mi Portfolio Personal  
 
-¡Bienvenido a mi portfolio! 🚀 Aquí muestro mis habilidades, proyectos y experiencia en desarrollo web. Está construido con **Next.js** y estilizado con **Tailwind CSS**, con un diseño moderno, minimalista y de alto rendimiento.  
+¡Bienvenido a mi portfolio! Acá muestro mis habilidades, proyectos y experiencia en desarrollo web. Está construido con **Next.js** y estilizado con **Tailwind CSS**, con un diseño moderno, minimalista y de alto rendimiento.  
 
 ## Tecnologías Utilizadas  
 
