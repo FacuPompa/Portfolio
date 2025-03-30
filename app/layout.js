@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Pompa Facundo ► Portfolio",
+  title: "Pompa Facundo | Portfolio",
   description: "Portfolio creado con Next.js y TailwindCSS",
 };
 

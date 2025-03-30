@@ -41,7 +41,9 @@ export default function SobreMi() {
           <motion.div
             key={index}
             className="bg-gray-800 p-4 rounded-xl shadow-md flex items-center justify-center w-24 h-24"
-            whileHover={{ scale: 1.1 }}
+            whileHover={{ scale: 1.2 }}
+            transition={{ duration: 0.15, ease: "easeOut" }}
+            style={{ willChange: "transform" }}
           >
             <img src={skill.image} alt={skill.name} className="w-14 h-14" />
           </motion.div>

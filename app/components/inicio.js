@@ -5,11 +5,11 @@ import { motion } from "framer-motion";
 export default function Inicio() {
   return (
     <motion.section
-        className="min-h-screen flex flex-col justify-left items-left text-left"
-        initial={{ opacity: 0, y: -50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
-        viewport={{ amount: 0.5 }}
+      className="min-h-screen flex flex-col justify-left items-left text-left "
+      initial={{ opacity: 0, y: -50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1 }}
+      viewport={{ amount: 0.5 }}
     >
       <img
         src="/foto.png"

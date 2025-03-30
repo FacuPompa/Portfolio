@@ -5,12 +5,15 @@ import { motion } from "framer-motion";
 import Inicio from "./components/inicio";
 import SobreMi from "./components/sobremi";
 import Proyectos from "./components/proyectos";
+import Contacto from "./components/contacto"
+import Footer from "./components/footer";
+
 
 const sections = [
   { id: "home", title: "Inicio", component: <Inicio /> },
   { id: "about", title: "Sobre Mí", component: <SobreMi /> },
   { id: "projects", title: "Proyectos", component: <Proyectos /> },
-  { id: "contact", title: "Contacto" },
+  { id: "contact", title: "Contacto", component: <Contacto/>},
 ];
 
 export default function Page() {
@@ -35,24 +38,26 @@ export default function Page() {
       </nav>
 
       <div className="pt-40 px-100">
-        {sections.map((section) => (
-          <motion.section
-            key={section.id}
-            id={section.id}
-            className="w-full min-h-screen flex justify-start items-start text-left"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: false, amount: 0.3 }}
-          >
-            {section.component || (
-              <h1 className="text-4xl font-bold font-mono text-blue-400">
-                {section.title}
-              </h1>
-            )}
-          </motion.section>
-        ))}
-      </div>
+  {sections.map((section) => (
+    <motion.section
+      key={section.id}
+      id={section.id}
+      className="w-full min-h-screen flex justify-start items-start text-left scroll-mt-52"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      viewport={{ once: false, amount: 0.3 }}
+    >
+      {section.component || (
+        <h1 className="text-4xl font-bold font-mono text-blue-400">
+          {section.title}
+        </h1>
+      )}
+    </motion.section>
+  ))}
+</div>
+<Footer />
+
     </div>
   );
 }
